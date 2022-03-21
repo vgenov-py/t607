@@ -1,3 +1,1 @@
-a <- 3
-typeof(a) == typeof("un texto")
-print(a)
+y <- c(25,30,60, 88)
