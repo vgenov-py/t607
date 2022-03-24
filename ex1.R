@@ -62,7 +62,36 @@ rep(10, 10)
 #EJERCICIO 3:
 
 b <- c(1,2,3,4)
+b[-3:-2]
+b[4]
 b[-2:-3]
+
+#EJERCICIO 4:
+start <- Sys.time()
+
+n <- 100000000
+n_s <- seq(1,1000000, 500)
+deltas <- c()
+# implementar algo que cuando n sea 5 devuelva bigO   O(2 + 3 * n) --> O(n)
+result <- 0
+for (v in 1:n) { # for (v in seq(1, n))
+  result <- result + v
+}
+
+finish <- Sys.time()
+print(finish - start)
+
+# n * (n + 1) / 2
+start <- Sys.time()
+n <- 100000000
+result_2 <- n * (n + 1) / 2 # O(4) --> O(1)
+result_2
+finish <- Sys.time()
+print(finish - start) # 
+
+plot(n_s, seq(1,1000000, 500))
+
+
 
 
 

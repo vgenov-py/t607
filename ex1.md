@@ -15,10 +15,10 @@ b <- c(1,2,3,4)
 3. Del vector b imprimir los valores 1 y 4 utilizando posiciones negativas.
 4. Obtener el sumatorio de cualquier secuencia 1:n
 ```r
-c <- c(20, 20, 7, 3, 20)
+c <- c(6, 20, 7, 3)
 d <- c(10, 10, 64, 10)
 ```
-
+4. Medir tiempo de computo de la solución lineal y de la solución constante
 5. Multiplicar los vectores c y d por posiciones
 
 ### Financial statement Exercise
