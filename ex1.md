@@ -20,7 +20,6 @@ d <- c(10, 10, 64, 10)
 ```
 4. Medir tiempo de computo de la solución lineal y de la solución constante
 5. Multiplicar los vectores c y d por posiciones
-
 ### Financial statement Exercise
 ```r
 revenue <- c(14574.49, 7606.46, 8611.41, 9175.41, 8058.65, 8105.44, 11496.28, 9766.09, 10305.32, 14379.96, 10713.97, 15433.50)
